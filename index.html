@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="Frontend Mentor challenge" />
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <meta name="author" content="Rebecca Padgett" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <!-- !google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- !css -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- !JavaScript -->
+  <script src="./assets/js/script.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <h1 class="visually-hidden">Intro component with sign up form</h1>
+    <article class="hero grid">
+      <h2 class="hero__title">Learn to code by watching others</h2>
+      <p class="hero__description">
+        See how experienced developers solve problems in real-time. Watching
+        scripted tutorials is great, but understanding how developers think is
+        invaluable.
+      </p>
+    </article>
+    <article class="form__wrapper">
+      <p class="form__headline">
+        <strong>Try it free 7 days</strong>
+        <span>then $20/mo. thereafter</span>
+      </p>
+      <form action="#" class="form" id="form" data-js-form novalidate>
+        <fieldset class="grid">
+          <legend class="visually-hidden">
+            Signup Form to claim free trial
+          </legend>
+          <div class="form__group">
+            <label for="first-name" class="visually-hidden">
+              Enter First Name
+            </label>
+            <input class="form__group-input" type="text" id="first-name" name="first-name" placeholder="First Name" autocomplete="given-name" required />
+            <p class="form__message" id="form__message" data-js-message>
+              First Name cannot be empty
+            </p>
+          </div>
+          <div class="form__group">
+            <label for="last-name" class="visually-hidden">
+              Enter Last Name
+            </label>
+            <input class="form__group-input" type="text" id="last-name" name="last-name" placeholder="Last Name" autocomplete="family-name" required />
+            <p class="form__message" id="form__message" data-js-message>
+              Last Name cannot be empty
+            </p>
+          </div>
+          <div class="form__group">
+            <label for="email" class="visually-hidden">
+              Enter Email Address
+            </label>
+            <input class="form__group-input" type="email" id="email" name="email" placeholder="Email Address" autocomplete="email" required />
+            <p class="form__message" data-js-message>
+              Looks like this is not an email
+            </p>
+          </div>
+          <div class="form__group">
+            <label for="password" class="visually-hidden">
+              Enter Password
+            </label>
+            <input class="form__group-input" type="password" id="password" name="password" placeholder="Password" autocomplete="current-password" required />
+            <p class="form__message" id="form__message" data-js-message>
+              Password cannot be empty
+            </p>
+          </div>
+        </fieldset>
+        <button class="btn-signup" aria-describedby="terms">
+          Claim your free trial
+        </button>
+        <p class="signup__footnote" id="terms">
+          By clicking the button, you are agreeing to our
+          <a href="/">Terms and Services</a>
+        </p>
+      </form>
+    </article>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor
+      </a>
+      . Coded by
+      <a href="#">Rebecca Padgett</a>
+      .
+    </p>
+  </footer>
+</body>
+
+</html>
