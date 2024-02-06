@@ -143,11 +143,6 @@ fieldset {
   gap: var(--_gap, 1rem);
 }
 
-.bg-accent-400 {
-  background-color: hsl(var(--clr-accent-400));
-}
-
-
 /* !main styles */
 main {
   text-align: center;
@@ -245,9 +240,9 @@ main {
   transition: 300ms ease-in-out;
 }
 
-:is(.btn-signup, .form__headline):is(:hover, :focus-visible) {
+/* :is(.btn-signup, .form__headline):is(:hover, :focus-visible) {
   opacity: .8;
-}
+} */
 
 .signup__footnote {
   font-size: 0.75rem;
@@ -318,5 +313,9 @@ main {
   .form {
     --_form-spacing: 2.2rem;
     width: 34.375rem;
+
+    .attribution {
+      display: block;
+    }
   }
 }
