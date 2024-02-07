@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
-- Live Site URL: [Github Pages]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-signup-form-using-html-css-and-javascript-ExMYkVfr1o)
+- Live Site URL: [Github Pages](https://bccpadge.github.io/intro-component-with-sign-up-form/)
 
 ## My process
 
