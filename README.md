@@ -54,7 +54,7 @@ I want to continue to implement accessibility in my future projects.
 ### Useful resources
 
 - [Id attribute](https://fedmentor.dev/posts/id-attribute-masterclass/) - Great article explaining when to use the id attribute
-- [Coolors Constrast Checker](https://coolors.co/contrast-checker) - Check color constrast between text color and background colors
+- [Coolors Contrast Checker](https://coolors.co/contrast-checker) - Check color contrast between text color and background colors
 
 ## Author
 
