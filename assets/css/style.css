@@ -17,7 +17,7 @@
 /* !reset */
 /* !Box sizing rules */
 *,
-*:before,
+*::before,
 *::after {
   box-sizing: border-box;
 }
@@ -218,12 +218,12 @@ main {
   display: none;
 }
 
-[aria-invalid="true"]~.form__message {
+[aria-invalid="true"] ~ .form__message {
   display: block;
 }
 
 .form__group-input.error {
-  background-image: url('../images/icon-error.svg');
+  background-image: url("../images/icon-error.svg");
   background-repeat: no-repeat;
   background-position: 94% center;
   border: 2px solid hsl(var(--clr-primary-400-alt));
@@ -250,14 +250,12 @@ main {
   font-size: 0.75rem;
   color: hsl(var(--clr-neutral-500));
   margin-block-start: 0.625rem;
-
 }
 
 .signup__footnote a {
   font-weight: var(--fw-700);
   color: hsl(var(--clr-primary-400));
   text-decoration: none;
-
 }
 
 .signup__footnote a:is(:hover, :focus-visible) {
