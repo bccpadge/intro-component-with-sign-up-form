@@ -10,7 +10,6 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -67,9 +66,6 @@ I want to continue to implement accessibility in my future projects.
  </a>
   <a href="https://www.linkedin.com/in/rebecca-padgett23">
     <img src="https://img.shields.io/badge/Linkedin-004182?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-  <a href="https://t.snapchat.com/bNUplk4b">
-    <img src="https://img.shields.io/badge/Snapchat-FFFC00?style=for-the-badge&logo=snapchat&logoColor=white">
   </a>
 </p>
 
